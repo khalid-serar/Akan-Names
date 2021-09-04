@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Akan-Names</title>
 </head>
 <body>
@@ -15,5 +16,41 @@
         </p>
     </nav>
     <hr>
+    <nav class = "form">
+        <form id ="brithday">
+            <div class="date">
+                <input class="form-control" type="text" id="day" placeholder="Enter the date" aria-label="">
+            </div>
+            <div class="date">
+                <input class="form-control" type="text" id="month" placeholder="Enter the month" aria-label="">
+            </div>
+            <div class="date">
+                <input class="form-control" type="text" id="year" placeholder="Enter the year" aria-label="">
+            </div>         
+            <div class="gender">
+                <input class="check-gender" type="radio" name="radio" id="radio1">
+                <label class="check-label" for="radio1" value="Male">
+                  Male
+                </label>
+              </div>
+              <div class="gender">
+                <input class="check-gender" type="radio" name="radio" id="radio2" checked>
+                <label class="check-label" for="radio2" value="Female">
+                 Female
+                </label>
+              </div>
+              <div class="submit">
+                <button type="button" class="btn" onclick="calculateBirthday()">submit</button>
+              </div>
+    
+        </form>
+    </nav>
+    <nav id = "output-nav">
+        <p id ="output"> 
+            
+        </p>
+    </nav>
+    <script src="script.js"></script>
+    
 </body>
 </html>
