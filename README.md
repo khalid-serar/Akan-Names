@@ -8,3 +8,5 @@ It's a website that will help you see your Akan name
 1.HTML
 2.CSS
 3.JS
+# Licence
+This project is under the MIT licence
