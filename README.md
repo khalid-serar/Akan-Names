@@ -3,7 +3,7 @@ Akan-Names
 # Author
 Khalid Abdi Serar
 # description of the project
-It's a website that will help you see your Akan name
+It's a website that will help you find your Akan name
 # Technologies used
 1.HTML
 2.CSS
