@@ -38,7 +38,7 @@ function checkGender(){
     }else if(radios[1].checked == true){
         gender = "Female";
     }else{
-        console.log("none is checked");
+        alert('none is checked');
     }
     
 
